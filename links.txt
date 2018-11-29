@@ -1,0 +1,30 @@
+
+https://www.infoq.com/presentations/netflix-chaos-microservices?mc_cid=a1331a450c&mc_eid=3073061161
+
+
+Building and deploying microservices with event sourcing, CQRS and Docker
+https://segment.com/blog/goodbye-microservices/
+
+
+Microservices - Portland Oregon 2018-09-25 Portland Java User Group 
+https://speakerdeck.com/sullis/microservices-portland-oregon-2018-09-25?slide=12
+
+---------------------------------
+Design Microservice Architectures the Right Way
+https://www.infoq.com/presentations/microservices-arch-infrastructure-cd?utm_source=infoqEmail&utm_medium=SpecialNL_EditorialContent&utm_campaign=10032018_SpecialNL&forceSponsorshipId=1710
+
+-----------------------------
+Design Events first
+https://www.infoq.com/presentations/microservices-events-first-design?utm_source=infoqEmail&utm_medium=SpecialNL_EditorialContent&utm_campaign=10032018_SpecialNL&forceSponsorshipId=1710
+-----------------------------
+
+
+http://www.infoq.com/presentations/microservice-arch-gilt
+http://tech.gilt.com/2014/11/14/making-architecture-work-in-microservice/
+https://github.com/realestate-com-au/pact
+https://www.innoq.com/en/talks/2016/10/microservices-size-goto-london-2016/
+
+
+
+
+
