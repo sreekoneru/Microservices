@@ -1,7 +1,7 @@
 
 https://www.infoq.com/presentations/netflix-chaos-microservices?mc_cid=a1331a450c&mc_eid=3073061161
 
-
+-------------
 Building and deploying microservices with event sourcing, CQRS and Docker
 https://segment.com/blog/goodbye-microservices/
 
@@ -24,7 +24,11 @@ http://tech.gilt.com/2014/11/14/making-architecture-work-in-microservice/
 https://github.com/realestate-com-au/pact
 https://www.innoq.com/en/talks/2016/10/microservices-size-goto-london-2016/
 
+-------------------------------------
 
+Why Segment Returned to a Monolith from Microservices
+https://www.infoq.com/news/2018/07/segment-microservices
+https://segment.com/blog/goodbye-microservices/
 
 
 
