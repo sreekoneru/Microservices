@@ -1,0 +1,85 @@
+Sam Newman - The Principles of MicroServices Talk at 2015 Velocity conference 
+
+Use Hexagons for representing MicroServices
+Small Autonomous services that work together - They are contradictory and support each other. 
+Have Singular of purpose
+Follow http://12factor.net/
+Good set of practices, principles and Goal
+
+Principles of Microservice
+Modelled around Business Domain
+More Stable boundaries and composable
+Boundaries around business domain and not via “Presentation-business logic-database”
+Bounded Context
+Understand the capabilities of what the system offers
+we should be able to list them for a non technical person
+
+Culture of Automation
+There are lots of moving parts, so automation helps
+Infrastructure Automation
+Automated Testing Feedback cycles
+Continuous Delivery
+
+Hide implementation details
+Make a change to one without impacting other
+If you expose your database to multiple services/processes, then we end up in hard coupling
+APIs allow us to decide what is hidden and what is available
+Don’t leak implementation
+don’t let your Client Libraries expose implementation
+They often take some business logic with them
+hard to let all the consumer update their client libraries
+
+
+drive towards decentralise all the things
+Owner operator
+Dumb Pipes - (ESB) - Smart endpoints
+Both Orchestrated and Choreographed approaches may be successful, but leave some gaps
+
+
+deploy independently 
+One Host per Service
+Don’t deploy more than one service on one host/one cpu
+Consumer Driven Contracts
+Co-exist end points
+two versions exist in the same service (not two different services one for old version and other for new version)
+Consumer First
+service to service consumer
+follow Outside in approach
+Documentation - Make it easy for people to consume your service
+like swagger
+API Gateways
+may be third party API providers might help, but not up to the mark
+Good to monitor usage via Keys
+Sam likes 3Scale API tool
+Service Discovery
+Zookeeper
+etcd
+consul etc - Sam liked it.
+Isolate Failure
+understand failure of each component.
+Highly observable 
+understand the behaviour of system
+Stats pages
+application errors
+http response code error counts
+Total service requests
+Aggregate
+take information away from node and push into central (ELK stack)
+stats - cpu, etc
+Correlation IDs
+useful where there is a trigger of events - one call leading to other
+Semantic monitoring
+getting the pulse periodically
+make sure that they are not destructive
+
+
+http://www.infoq.com/presentations/microservice-arch-gilt
+http://tech.gilt.com/2014/11/14/making-architecture-work-in-microservice/
+https://github.com/realestate-com-au/pact
+https://www.innoq.com/en/talks/2016/10/microservices-size-goto-london-2016/
+
+How do you handle transactions
+Distributed transactions do not work
+brace eventual consistency
+move away everything else and narrow it down
+may be don’t break it apart if they are one thing
