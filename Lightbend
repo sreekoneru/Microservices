@@ -1,0 +1,51 @@
+Lightbend - Founder Microservice Notes 
+Oreilly Software Architecture Keynote
+Core Traits of Reactive Microservices 
+
+Asynchronous Communication
+	No strong coupling between services
+	Asynchronous boundary between two services - decouple them in time and space
+
+Isolation
+It will slice up the architecture. 
+Impact teams and responsibilities like Conveys law
+Isolation of failure and ability to manage failure 
+Bulk-heading - used in shipping containers to have many water compartments
+Isolation along with Asynchronous messaging gives us a good platform
+
+Act Autonomously 
+When they are isolated and not coupled, then it can act autonomously 
+Act on their own
+
+Do One thing and do it well
+Scope of responsibility
+Single responsibility principle from OO 
+Service should have one single reason to exist.
+
+Own your state Exclusively
+Both behavior and state is owned by service
+
+Stay mobile and addressable
+Address should always work and be ready for communication with clients
+
+One micro service is not of much use. They come in Systems. 
+
+Individual micro services is easy to understand, but tying them all together, makes it complex
+
+Systems need to exploit reality.
+
+Embrace the constraints of distributed systems
+
+
+Minimise coupling and communication
+Also,minimise  sharing state.
+Rely on eventual consistency
+
+Transactions
+Only allowed within a micro services. 
+SAGA pattern
+	One Long running transaction, comprises of multiple tiny transactions. 
+
+
+
+		
